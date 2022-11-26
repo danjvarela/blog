@@ -1,0 +1,6 @@
+<%= form_for [@article, @comment] do |f| %>
+  <%= f.text_field :body %>
+  <%= f.submit %>
+<% end %>
+
+<%= link_to "Comments", article_comments_path(@article) %><br/>
