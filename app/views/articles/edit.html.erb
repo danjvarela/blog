@@ -1,0 +1,4 @@
+<%= render "form", article: @article %>
+
+<%= link_to "Articles", articles_path %>
+<%= link_to 'Delete', @article, data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}%>
