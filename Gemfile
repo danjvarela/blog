@@ -53,7 +53,7 @@ group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw]
 
   gem "rubocop", require: false
-  gem "standard", require: false
+  gem 'rubocop-airbnb'
 end
 
 group :development do
